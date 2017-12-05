@@ -10,9 +10,6 @@ class Header extends Component {
             <div>
              <Link to="/Movies">Movies</Link>
              </div>
-             <div>
-            <Link to="Reviews"></Link>
-            </div>
             <div>
             <Link to="Blogs"></Link>
             <div>
