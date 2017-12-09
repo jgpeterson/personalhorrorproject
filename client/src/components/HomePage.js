@@ -6,9 +6,7 @@ class HomePage extends Component {
     render() {
         return (
             <div>
-                <iframe width="420" height="315"
-            src="https://www.youtube.com/embed/Tm8LGxTLtQk">
-                </iframe>
+               <img src="https://i.imgur.com/mFjp7Nd.jpg"/>
                <button><Link to="/MainMenu">ENTER</Link></button>
             </div>
         );

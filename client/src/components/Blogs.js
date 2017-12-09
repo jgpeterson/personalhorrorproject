@@ -27,7 +27,7 @@ class Blogs extends Component {
             return (
                 
                 <div>
-                    {opinion.title}
+                    <h1>{opinion.title}</h1>
                     <div>
                     {opinion.description}
                     </div>
