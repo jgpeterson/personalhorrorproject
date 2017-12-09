@@ -6,3 +6,7 @@ Movie.create({tagline: "What you know about fear doesnt come close to this.", po
 Blog.destroy_all
 
 Blog.create({title: "New Age of Horror", description: "this here is a test."})
+
+Podcast.destroy_all
+
+Podcast.create({title: "This is my first podcast", description: "https://www.youtube.com/embed/N1DLgXxNZNA" })
