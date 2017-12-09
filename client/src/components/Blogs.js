@@ -2,15 +2,46 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import Header from './Header'
+import axios from 'axios'
+
 
 class Blogs extends Component {
+
+    state = {
+        blogs: [],
+       
+    }
+
+    componentWillMount() {
+        this.getAllBlogs()
+    }
+
+    getAllBlogs = async () => {
+        const res = await axios.get('/api/blogs')
+        this.setState({ blogs: res.data })
+    }
+
     render() {
+
+        const opinions = this.state.blogs.map((opinion) => {
+            return (
+                
+                <div>
+                    {opinion.title}
+                    <div>
+                    {opinion.description}
+                    </div>
+                </div>
+                
+            )
+        })
+
         return (
             <div>
-                <h1>hello</h1>
+                <Header />
+                {opinions}
             </div>
-        );
+        )
     }
 }
-
 export default Blogs;

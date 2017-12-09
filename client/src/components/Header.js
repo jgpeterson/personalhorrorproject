@@ -8,6 +8,9 @@ class Header extends Component {
         return (
             <div>
             <div>
+            <Link to="/MainMenu">Main Menu</Link>
+            </div>
+            <div>
              <Link to="/Movies">Movies</Link>
              </div>
             <div>
