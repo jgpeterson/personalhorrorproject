@@ -4,6 +4,7 @@ import MainMenu from './components/MainMenu'
 import Movies from './components/Movies'
 import Podcasts from './components/Podcasts'
 import Blogs from './components/Blogs'
+import HomePage from './components/HomePage'
 class App extends Component {
   render() {
     return (
