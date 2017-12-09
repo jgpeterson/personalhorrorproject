@@ -11,7 +11,7 @@ class MainMenu extends Component {
     render() {
         return (
             <div>
-                
+                <Header />
             </div>
         );
     }

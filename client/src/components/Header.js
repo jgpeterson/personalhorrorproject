@@ -11,9 +11,9 @@ class Header extends Component {
              <Link to="/Movies">Movies</Link>
              </div>
             <div>
-            <Link to="Blogs"></Link>
+            <Link to="Blogs">Blogs</Link>
             <div>
-            <Link to="Podcasts"></Link>
+            <Link to="Podcasts">Podcasts</Link>
             </div>
             </div>
             </div>
