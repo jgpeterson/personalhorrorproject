@@ -12,7 +12,7 @@ align-items: center;
 height: 50vh;
 flex-direction: column;
 text-align: center;
-background-color: black;
+
 `
 
 class HomePage extends Component {
@@ -20,7 +20,7 @@ class HomePage extends Component {
         return (
             <FlexContainer>
             
-               <img src="https://i.imgur.com/mFjp7Nd.jpg"/>
+               <img src="https://i.imgur.com/ztpdR31.jpg"/>
                <button><Link to="/MainMenu">ENTER</Link></button>
             
             </FlexContainer>
