@@ -4,15 +4,7 @@ import styled from 'styled-components'
 import Header from './Header'
 import axios from 'axios'
 
-const FlexContainer = styled.div`
-text-align: center;
-display: inline-block;
-width: 85%;
-padding: 15em;
-position: relative;
-min-width: 340px;
-max-width: 850px;
-`
+
 
 class Blogs extends Component {
 
@@ -34,14 +26,13 @@ class Blogs extends Component {
 
         const opinions = this.state.blogs.map((opinion) => {
             return (
-                <FlexContainer>
                 <div>
                     <h1>{opinion.title}</h1>
                     <div>
                     {opinion.description}
                     </div>
                 </div>
-                </FlexContainer>
+                
             )
         })
 

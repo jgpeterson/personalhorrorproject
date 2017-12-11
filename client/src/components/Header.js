@@ -7,16 +7,18 @@ class Header extends Component {
     render() {
         return (
             <div>
-            <div>
-            <Link to="/MainMenu">Main Menu</Link>
+            <div className="container">
+            <div className="item">
+              <Link to="/MainMenu">Main Menu</Link>
             </div>
-            <div>
-             <Link to="/Movies">Movies</Link>
-             </div>
-            <div>
-            <Link to="Blogs">Blogs</Link>
-            <div>
-            <Link to="Podcasts">Podcasts</Link>
+            <div className="item">
+              <Link to="/movies">Movies</Link>
+            </div>
+            <div className="item">
+            <Link to="/blogs">Blogs</Link>
+            </div>
+            <div className="item">
+            <Link to="/podcasts">Podcasts</Link>
             </div>
             </div>
             </div>
