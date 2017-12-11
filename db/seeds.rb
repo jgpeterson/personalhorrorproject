@@ -10,3 +10,7 @@ Blog.create({title: "New Age of Horror", description: "this here is a test."})
 Podcast.destroy_all
 
 Podcast.create({title: "This is my first podcast", description: "https://www.youtube.com/embed/N1DLgXxNZNA" })
+Podcast.create({title: "This is my second podcast", description: "https://www.youtube.com/embed/TAWVC71nzyA" })
+Podcast.create({title: "This is my third podcast", description: "https://www.youtube.com/embed/ZKmYZM8liLM" })
+
+
